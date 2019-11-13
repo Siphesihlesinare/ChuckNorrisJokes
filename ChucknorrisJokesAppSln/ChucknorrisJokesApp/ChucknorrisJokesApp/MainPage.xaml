@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChucknorrisJokesApp.MainPage">
+
+    <StackLayout BackgroundColor="White">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to chucky chucky jokes! "  BackgroundColor="White"  FontSize="Large" HeightRequest= "100" TextColor="Black" TextDecorations="Underline" 
+           HorizontalOptions="Center"
+            />
+
+
+        <Label x:Name="JokeLabel" HeightRequest= "200" FontSize="Large" BackgroundColor="White"  VerticalOptions="EndAndExpand" TextColor="Black"/>
+      
+
+<Image Source="" />
+
+            <Button x:Name="JokeButton" Text="Get Random Joke" Clicked="JokeButton_Clicked" VerticalOptions="EndAndExpand" BackgroundColor="Black" FontSize="Caption" BorderColor="Black" TextColor="White"/>
+        <Button x:Name="CategoryButton" Text="Category" Clicked="CategoryButton_Clicked" VerticalOptions="EndAndExpand" BackgroundColor="Black" FontSize="Caption" BorderColor="Black" TextColor="White"/>
+
+    </StackLayout>
+
+</ContentPage> 
